@@ -1,0 +1,33 @@
+
+Technology used in this application
+Spring boot
+H2 data base
+java-8
+build tool-maven
+
+Explanation:-
+In this project after running it from command line
+it will ask for special inputs for taking data
+
+A-- for adding new person in DB
+E-- for editing existing person
+L-- list all persons
+D-- for deleting record from DB
+
+
+validations  applied-for new person addition 
+==========================================================================
+1.Employee first name and surname should not be empty.
+2.Employee first name and surname should  be at least 4 digits long.
+3.First name and surname-could accept alpha numeric (Validation not applied).
+
+
+validations  applied-for updation of records
+==========================================================================
+1.Employee first name and surname should not be empty.
+2.Employee first name and surname should  be at least 4 digits long.
+3.First name and surname-could accept alpha numeric (Validation not applied).
+5.for updation application asks for value of id-providing non-numeric values for id is validated
+
+
+  
